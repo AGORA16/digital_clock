@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/digitalclock.css">
+</head>
+<body>
+    <select id="select">
+        <option value="12">
+        12-Hours Format
+        </option>
+        <option value="24">
+        24-Hours Format
+        </option>
+        </select>
+    <div id="outer">
+        <div id="hour" class="inner">
+        <span>HOURS</span>
+        <p id="hr">HH</p> 
+        </div>
+        <p class="p">:</p>
+        <div id="minit" class="inner">
+            <span>MINUTES</span>
+            <p id="min">MM</p>
+        </div>
+        <p class="p">:</p>
+        <div id="seco" class="inner">
+            <span>SECONDS</span>
+            <p id="sec">SS</p>
+        </div>
+        <p class="p">:</p>
+        <div id="ampm" class="inner">
+            <span>MERIDIAN</span>
+            <p id="ap">AM</p>
+        </div>
+    </div>
+<script src="../js/digitalclock.js"></script>
+</body>
+</html>
